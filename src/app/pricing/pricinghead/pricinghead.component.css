@@ -1,0 +1,116 @@
+div#pricinghead {
+    width: 100%;
+    margin-left: 0%;
+    background-image: url("../../../assets/connect1.svg"), url("../../../assets/connect2.svg");
+    background-position: top left, bottom right;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 35% 100%, 55% 100%;
+    margin-top: 0px;
+    height: 425px;
+}
+div#pricinghead > div {
+    background-color: #CCE7F880;
+    padding-top: 40px;
+    height: calc(100% - 40px);
+    color: #001B2C;
+}
+div#pricinghead > div > div {
+    width: 430px;
+    height: 130px;
+    margin-left: calc((100% - 430px)/2);
+    margin-top: 75px;
+}
+div#pricinghead > div > div > p:nth-child(1) {
+    width: 430px;
+    height: 60px;
+    font-size: 24px;
+    line-height: 30px;
+    font-family: Montserrat;
+    font-weight: 500;
+    text-align: center;
+}
+div#pricinghead > div > div > p:nth-child(2) {
+    width: 185px;
+    height: 18px;
+    font-size: 12px;
+    line-height: 15px;
+    font-family: Montserrat;
+    font-weight: 400;
+    text-align: center;
+    margin-left: calc((100% - 185px)/2);
+}
+div#pricinghead > div > div > p:nth-child(3) {
+    width: 430px;
+    height: 18px;
+    font-size: 12px;
+    line-height: 15px;
+    font-family: Montserrat;
+    font-weight: 400;
+    text-align: center;
+}
+div#pricinghead > div > select {
+    width: 140px;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12px;
+    line-height: 18px;
+    font-family: Poppins;
+    font-weight: 400;
+    margin-left: calc((100% - 140px)/2);
+    background-color: #CCE7F880;
+    margin-top: 25px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("../../../assets/Vector.png");
+    background-repeat: no-repeat;
+    background-position: 110px 15px;
+}
+select:hover {
+    cursor: pointer;
+}
+@media screen and (min-width : 830px) {
+    div#pricinghead {
+        height: 474px;
+    }
+    div#pricinghead > div > div {
+        width: 765px;
+        height: 180px;
+        margin-left: calc((100% - 765px)/2);
+    }
+    div#pricinghead > div > div > p:nth-child(1) {
+        width: 765px;
+        height: 100px;
+        font-size: 40px;
+        line-height: 49px;
+    }
+    div#pricinghead > div > div > p:nth-child(2) {
+        width: 245px;
+        height: 20px;
+        font-size: 16px;
+        line-height: 20px;
+        margin-left: calc((100% - 245px)/2);
+    }
+    div#pricinghead > div > div > p:nth-child(3) {
+        width: 574px;
+        height: 20px;
+        font-size: 16px;
+        line-height: 20px;
+        margin-left: calc((100% - 574px)/2);
+    }
+    div#pricinghead > div > select {
+        width: 200px;
+        height: 50px;
+        border-radius: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        gap: 10px;
+        font-size: 20px;
+        line-height: 30px;
+        margin-left: calc((100% - 200px)/2);
+        margin-top: 50px;
+        background-position: 170px 17.5px;
+    }
+}

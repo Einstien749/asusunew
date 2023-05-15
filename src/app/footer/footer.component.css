@@ -1,0 +1,426 @@
+div#footer1, div#footer2 {
+    margin-left: 42px;
+    font-family: Poppins;
+}
+div#footer1 {
+    margin-top: 20px;
+}
+div#footer1 > div > img {
+    width: 120px;
+    height: 25px;
+    margin-top: 42px;
+}
+div#footlink {
+    width: 107px;
+    height: 550px;
+    margin-top: 65px;
+}
+div.address {
+    width: 100px;
+    height: 130px;
+    font-size: 10px;
+    line-height: 15px;
+    color: #001B2C;
+}
+div.address > p:nth-child(1) {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+}
+div#footer1 > div:nth-child(2) > div:nth-child(1){
+    width: 260px;
+    min-height: 180px;
+}
+div#footer1 > div:nth-child(2) > div:nth-child(1) > p:nth-child(1){
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.03em;
+    color: #001B2C;
+}
+div#footer1 > div:nth-child(2) > div:nth-child(1) > p:nth-child(2){
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 20px;
+    text-align: justify;
+    opacity: 0.6;
+}
+div#footer1 > div:nth-child(2) > div:nth-child(1) > div:nth-child(3){
+    width: 170px;
+    height: 45px;
+    display: inline-flex;
+}
+div#footer1 > div:nth-child(2) > div:nth-child(1) > div > input{
+    width: 120px;
+    height: 35px;
+    padding: 0px;
+    padding-left: 5px;
+}
+div#footer1 > div:nth-child(2) > div:nth-child(1) > div > button{
+    width: 43px;
+    height: 40px;
+    background-image: url('../../assets/arrowbutton.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 0px;
+    border-radius: 0px;
+    margin-left: -3px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+div#message > span.hide {
+    display: none;
+}
+div#message {
+    font-size: 10px;
+    padding-top: 5px;
+}
+div#message > span:nth-child(1){
+    color: #FF0000;
+}
+
+div#footer1 > div:nth-child(2) > p:nth-child(3){
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #001B2C;
+    font-family: Montserrat;
+    width: 130px;
+    height: 20px;
+}
+div#footer1 > div:nth-child(2) > p:nth-child(4){
+    width: 230px;
+    height: 33px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 0px;
+    justify-content: space-between;
+}
+div#footer1 > div:nth-child(2) > p:nth-child(4) > a{
+    width: 102px;
+    height: 32px;
+    text-align: left;
+}
+div#footer1 > div:nth-child(2) > p:nth-child(4) > a > img{
+    width: 102px;
+    height: 32px;
+}
+div#footer2 {
+    width: calc(100% - 50px);
+    border-top: 1px #0A142F solid;
+    height: 70px;
+    font-weight: 400;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+div#footer2 > div:nth-child(1){
+    width: 200px;
+    height: 20px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+div#footer2 > div:nth-child(2){
+    width: 150px;
+    height: 20px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+div#footer2 > div:nth-child(2) > a{
+    width: 20px;
+    height: 20px;
+}
+div#footer2 > div:nth-child(2) > a > img{
+    width: 20px;
+    height: 20px;
+}
+@media screen and (min-width : 830px){
+    div#footer1, div#footer2 {
+        margin-left: calc((100% - 730px)/2);
+        width: 750px;
+    }   
+    div#footer1 {
+        display: grid;
+        grid-template-columns: 480px 250px;
+        grid-column-gap: 20px;
+    }
+    div#footer1 > div > img {
+        width: 82px;
+        height: 20px;
+        margin-top: 37.5px;
+    }
+    div#footlink {
+        width: 475px;
+        height: 150px;
+        margin-top: 24px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    div.address {
+        width: 92px;
+        height: 110px;
+        font-size: 10px;
+        line-height: 13px;
+    }
+    div.address > p:nth-child(1) {
+        font-size: 12px;
+        line-height: 17px;
+    }
+    div#footer1 > div:nth-child(2){
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 40px 120px 25px 35px;
+        grid-row-gap: 25px;
+        height: 370px;
+        padding-top: 30px;
+    }
+    div#footer1 > div:nth-child(2) > button{
+        grid-row: 1/2;
+    }
+    div#footer1 > div:nth-child(2) > div#subscribe{
+        grid-row: 2/3;
+    }
+    div#footer1 > div:nth-child(2) > div#message{
+        grid-row: 3/4;
+    }
+    div#footer1 > div:nth-child(2) > p:nth-child(4){
+        grid-row: 4/5;
+    }
+    div#footer2 {
+        width: 700px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 7px;
+        line-height: 13.5px;
+        height: 60px;
+    }
+    div#footer2 > div:nth-child(1){
+        width: 150px;
+        height: 23px;
+        margin-top: 10px;
+    }
+    div#footer2 > div:nth-child(2){
+        width: 150px;
+        height: 23px;
+        margin-top: 10px;
+    }
+    div#footer2 > div:nth-child(2) > a{
+        width: 22px;
+        height: 22px;
+    }
+    div#footer2 > div:nth-child(2) > a > img{
+        width: 20px;
+        height: 20px;
+    }
+    div#footer1 > div:nth-child(2) > div:nth-child(1) > div:nth-child(3){
+        width: 170px;
+        height: 35px;
+    }
+    div#footer1 > div:nth-child(2) > div:nth-child(1) > p:nth-child(2){
+        width: 250px;
+        height: 50px;
+    }
+    div#footer1 > div:nth-child(2) > div:nth-child(1) > div > input{
+        width: 120px;
+        height: 30px;
+        padding: 0px;
+        padding-left: 8px;
+    }
+    div#footer1 > div:nth-child(2) > div:nth-child(1) > div > button{
+        width: 40px;
+        height: 35px;
+    }
+    div#footer1 > div:nth-child(2) > p:nth-child(3){
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        width: 140px;
+        height: 25px;
+    }
+    div#footer1 > div:nth-child(2) > div:nth-child(1) > p:nth-child(1){
+        font-size: 10px;
+        line-height: 14px;
+    }
+    div#footer1 > div:nth-child(2) > div:nth-child(1) > p:nth-child(2){
+        font-size: 8px;
+        line-height: 12px;
+        width: 220px;
+    }
+    div#message {
+        font-size: 8px;
+    }
+    div#footer1 > div:nth-child(2) > p:nth-child(4){
+        width: 200px;
+        height: 32px;
+    }
+    div#footer1 > div:nth-child(2) > p:nth-child(4) > a{
+        width: 81px;
+        height: 30px;
+    }
+    div#footer1 > div:nth-child(2) > p:nth-child(4) > a > img{
+        width: 80px;
+        height: 30px;
+    }
+
+}
+
+@media screen and (min-width : 1350px){
+    div#footer1, div#footer2 {
+        margin-left: calc((100% - 1170px)/2);
+        width: 1170px;
+    }   
+    div#footer1 {
+        display: grid;
+        grid-template-columns: 840px 310px;
+        grid-column-gap: 20px;
+    }
+    div#footer1 > div > img {
+        width: 140px;
+        height: 40px;
+        margin-top: 42px;
+    }
+    div#footlink {
+        width: 840px;
+        height: 220px;
+        margin-top: 42px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    div.address {
+        width: 160px;
+        height: 200px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    div.address > p:nth-child(1) {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    div#footer1 > div:nth-child(2){
+        display: grid;
+        grid-template: 100%;
+        grid-template-rows: 64px 200px 40px 50px;
+        grid-row-gap: 42px;
+        height: 550px;
+        padding-top: 45px;
+    }
+    div#footer1 > div:nth-child(2) > button{
+        grid-row: 1/2;
+    }
+    div#footer1 > div:nth-child(2) > div#subscribe{
+        grid-row: 2/3;
+    }
+    div#footer1 > div:nth-child(2) > div#message{
+        grid-row: 3/4;
+    }
+    div#footer1 > div:nth-child(2) > p:nth-child(4){
+        grid-row: 4/5;
+    }
+    div#footer2 {
+        width: 1180px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 12px;
+        line-height: 16px;
+        height: 80px;
+    }
+    div#footer2 > div:nth-child(1){
+        width: 240px;
+        height: 50px;
+        margin-top: 10px;
+    }
+    div#footer2 > div:nth-child(2){
+        width: 300px;
+        height: 50px;
+        margin-top: 10px;
+    }
+    div#footer2 > div:nth-child(2) > a{
+        width: 40px;
+        height: 40px;
+    }
+    div#subscribe {
+        height: 230px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    div#footer2 > div:nth-child(2) > a > img{
+        width: 40px;
+        height: 40px;
+    }
+    div#footer1 > div:nth-child(2) > div:nth-child(1) > div:nth-child(3){
+        width: 260px;
+        height: 55px;
+    }
+    div#footer1 > div:nth-child(2) > div:nth-child(1) > div > input{
+        width: 200px;
+        height: 50px;
+        padding: 0px;
+        padding-left: 10px;
+    }
+    div#footer1 > div:nth-child(2) > div:nth-child(1) > div > button{
+        width: 50px;
+        height: 55px;
+    }
+    div#footer1 > div:nth-child(2) > p:nth-child(3){
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 34px;
+        width: 255px;
+        height: 35px;
+    }
+    div#footer1 > div:nth-child(2) > div:nth-child(1) > p:nth-child(1){
+        font-size: 16px;
+        line-height: 24px;
+    }
+    div#footer1 > div:nth-child(2) > div:nth-child(1) > p:nth-child(2){
+        font-size: 14px;
+        line-height: 20px;
+        width: 250px;
+    }
+    div#message {
+        font-size: 12px;
+    }
+    div#footer1 > div:nth-child(2) > p:nth-child(4){
+        width: 330px;
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+    }
+    div#footer1 > div:nth-child(2) > p:nth-child(4) > a{
+        width: 141px;
+        height: 40px;
+    }
+    div#footer1 > div:nth-child(2) > p:nth-child(4) > a > img{
+        width: 141px;
+        height: 40px;
+    }
+
+}
+@media screen and (max-width : 322px){
+    div#footer1, div#footer2{
+        margin-left: 5px;
+        width: calc(100% -5px);
+    }
+    div#subscribe{
+        width: 100%;
+        height: auto;
+        min-height: 200px;
+    }
+    div#subscribe > p {
+        width: 100%;
+        height: auto;
+        min-height: 50px;
+    }
+    div#subscribe > div {
+        width: 100%;
+        height: auto;
+        min-height: 50px;
+    }
+}
