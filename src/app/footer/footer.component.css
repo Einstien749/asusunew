@@ -11,12 +11,12 @@ div#footer1 > div > img {
     margin-top: 42px;
 }
 div#footlink {
-    width: 107px;
+    width: 130px;
     height: 550px;
     margin-top: 65px;
 }
 div.address {
-    width: 100px;
+    width: 130px;
     height: 130px;
     font-size: 10px;
     line-height: 15px;
@@ -121,6 +121,7 @@ div#footer2 > div:nth-child(1){
     height: 20px;
     display: inline-flex;
     justify-content: space-between;
+    padding-top: 5px;
 }
 div#footer2 > div:nth-child(2){
     width: 150px;
@@ -238,7 +239,7 @@ div#footer2 > div:nth-child(2) > a > img{
         font-weight: 500;
         font-size: 16px;
         line-height: 20px;
-        width: 140px;
+        width: 160px;
         height: 25px;
     }
     div#footer1 > div:nth-child(2) > div:nth-child(1) > p:nth-child(1){
@@ -306,7 +307,7 @@ div#footer2 > div:nth-child(2) > a > img{
         grid-template: 100%;
         grid-template-rows: 64px 200px 40px 50px;
         grid-row-gap: 42px;
-        height: 550px;
+        height: 600px;
         padding-top: 45px;
     }
     div#footer1 > div:nth-child(2) > button{
@@ -345,11 +346,12 @@ div#footer2 > div:nth-child(2) > a > img{
         height: 40px;
     }
     div#subscribe {
-        height: 230px;
+        height: 250px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
     }
+    
     div#footer2 > div:nth-child(2) > a > img{
         width: 40px;
         height: 40px;
@@ -360,13 +362,13 @@ div#footer2 > div:nth-child(2) > a > img{
     }
     div#footer1 > div:nth-child(2) > div:nth-child(1) > div > input{
         width: 200px;
-        height: 50px;
+        height: 45px;
         padding: 0px;
         padding-left: 10px;
     }
     div#footer1 > div:nth-child(2) > div:nth-child(1) > div > button{
         width: 50px;
-        height: 55px;
+        height: 50px;
     }
     div#footer1 > div:nth-child(2) > p:nth-child(3){
         font-weight: 500;
@@ -374,6 +376,8 @@ div#footer2 > div:nth-child(2) > a > img{
         line-height: 34px;
         width: 255px;
         height: 35px;
+        padding-top: 0px;
+        margin-top: 10px;
     }
     div#footer1 > div:nth-child(2) > div:nth-child(1) > p:nth-child(1){
         font-size: 16px;
@@ -383,6 +387,7 @@ div#footer2 > div:nth-child(2) > a > img{
         font-size: 14px;
         line-height: 20px;
         width: 250px;
+        height: auto;
     }
     div#message {
         font-size: 12px;
