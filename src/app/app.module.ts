@@ -14,6 +14,8 @@ import { Homesection2Component } from './home/homesection2/homesection2.componen
 import { Homesection1Component } from './home/homesection1/homesection1.component';
 import { PricingplanComponent } from './pricing/pricingplan/pricingplan.component';
 import { PricingheadComponent } from './pricing/pricinghead/pricinghead.component';
+import { Aboutsection2Component } from './about/aboutsection2/aboutsection2.component';
+import { Aboutsection1Component } from './about/aboutsection1/aboutsection1.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { PricingheadComponent } from './pricing/pricinghead/pricinghead.componen
     Homesection2Component,
     Homesection1Component,
     PricingplanComponent,
-    PricingheadComponent
+    PricingheadComponent,
+    Aboutsection2Component,
+    Aboutsection1Component
   ],
   imports: [
     BrowserModule,

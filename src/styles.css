@@ -20,6 +20,9 @@ button.primary {
 a {
     text-decoration: none;
 }
+button:hover {
+    cursor: pointer;
+}
 @media screen and (min-width : 1200px){
     button.primary {
         width: 160px;
