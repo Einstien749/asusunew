@@ -5,6 +5,7 @@ div#homesection3{
     background-repeat: no-repeat;
     background-position: -10px -20px, 80% 600px;
     background-size: contain;
+    margin-top: 50px;
 }
 div#homesect {
     background-color: #0071B820;
@@ -18,7 +19,7 @@ div#homesect > p:nth-child(1) {
     font-size: 18px;
     line-height: 22px;
     width: 210px;
-    margin-left: calc((100% - 210px)/2);
+    margin-left: calc((100% - 280px)/2);
     padding-top: 0px;
 }
 div#homesect > p:nth-child(2) {
@@ -28,7 +29,7 @@ div#homesect > p:nth-child(2) {
     line-height: 15px;
     width: 210px;
     height: 60px;
-    margin-left: calc((100% - 210px)/2);
+    margin-left: calc((100% - 280px)/2);
 }
 div#homesection3 > div > div{
     display: flex;
@@ -99,7 +100,7 @@ div#homesection3 > div > div > div > img {
 
 @media screen and (min-width : 830px){
     div#homesection3{
-        margin-top: 0px;
+        margin-top: 50px;
         height: 500px;
         background-image: url("../../../assets/decor.svg");
         background-position: 70% 300px;
@@ -108,7 +109,7 @@ div#homesection3 > div > div > div > img {
         font-size: 32px;
         line-height: 40px;
         width: 370px;
-        margin-left: 95px;
+        margin-left: calc((100% - 720px)/2);
         margin-top: 42px;
     }
     div#homesect > p:nth-child(2) {
@@ -116,13 +117,13 @@ div#homesection3 > div > div > div > img {
         line-height: 18px;
         width: 370px;
         height: 55px;
-        margin-left: 95px;
+        margin-left: calc((100% - 720px)/2);;
     }
     div#homesection3 > div > div{
         flex-direction: row;
         justify-content: space-between;
         width: 650px;
-        margin-left: calc((100% - 600px)/2);
+        margin-left: calc((100% - 650px)/2);
         height: 210px;
     }
     div#homesection3 > div > div > div {
@@ -133,9 +134,9 @@ div#homesection3 > div > div > div > img {
     }
 
 }
-@media screen and (min-width : 1300px){
+@media screen and (min-width : 1440px){
     div#homesection3{
-        margin-top: 0px;
+        margin-top: 50px;
         height: 700px;
         background-image: url("../../../assets/decor.svg");
         background-position: 70% 300px;

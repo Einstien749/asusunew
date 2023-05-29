@@ -98,7 +98,7 @@ div#aboutsection1 > div > button {
         margin-top: 24px;
     }
 }
-@media screen and (min-width : 1350px) {
+@media screen and (min-width : 1440px) {
     div#aboutsection1 {
         height: 570px;
     }
@@ -108,7 +108,7 @@ div#aboutsection1 > div > button {
         font-size: 48px;
         line-height: 58px;
         height: 120px;
-        margin-top: 24px;
+        margin-top: 40px;
     }
     div#aboutsection1 > div > p:nth-child(2) {
         width: 640px;
@@ -120,5 +120,6 @@ div#aboutsection1 > div > button {
     }
     div#aboutsection1 > div > button {
         margin-top: 24px;
+        margin-left: calc((100% - 160px)/2);
     }
 }

@@ -1,9 +1,9 @@
 div#footer1, div#footer2 {
-    margin-left: 42px;
+    margin-left: 30px;
     font-family: Poppins;
 }
 div#footer1 {
-    margin-top: 20px;
+    margin-top: 50px;
 }
 div#footer1 > div > img {
     width: 120px;
@@ -269,7 +269,7 @@ div#footer2 > div:nth-child(2) > a > img{
 
 }
 
-@media screen and (min-width : 1350px){
+@media screen and (min-width : 1440px){
     div#footer1, div#footer2 {
         margin-left: calc((100% - 1170px)/2);
         width: 1170px;

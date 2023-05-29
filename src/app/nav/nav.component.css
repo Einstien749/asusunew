@@ -6,7 +6,7 @@ nav {
     margin-left: 0%;
     min-height: 50px;
     font-family: Poppins;
-    background-color: #CCE7F810;
+    background-color: #F7F9FB;
     padding-top: 10px;
     position: fixed;
     top: 0px;
@@ -20,11 +20,12 @@ nav > span {
     width: 20%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 nav > span > img {
     height: 25px;
     width: 120px;
+    margin-top: 10px;
 }
 nav > span > button {
     display: none;
@@ -38,13 +39,13 @@ nav > span > button > img{
     width: 80%;
 }
 nav > div#links {
-    width: 70%;
+    width: 75%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 nav > div#links > span {
-    width: 60%;
+    width: 70%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -53,6 +54,7 @@ nav > div#links > span {
     font-size: 16px;
 }
 nav > div#links > span > a {
+    width: 100px;
     color: #001B2C;
 }
 nav > div#links > button {
@@ -60,8 +62,8 @@ nav > div#links > button {
     border: 0px;
     border-radius: 10px;
     color: #FFFFFF;
-    height: 50px;
-    width: 200px;
+    height: 40px;
+    width: 150px;
     font-size: 16px;
     font-family: Poppins;
     font-weight: bold;
@@ -76,14 +78,13 @@ nav > div#smalllinks {
     height: 250px;
     flex-direction: column;
     margin-top: 10px;
-    justify-content: space-around;
+    justify-content: space-between;
 }
-div#smalllinks > span > a:hover{
+nav a:hover{
     letter-spacing: 2px;
 }
-nav > div#smalllinks > span {
+nav > div#smalllinks > p {
     width: 100%;
-    text-align: center;
     display: flex;
     height: 150px;
     flex-direction: column;
@@ -92,6 +93,11 @@ nav > div#smalllinks > span {
     font-family: Poppins;
     font-weight: 400;
     font-size: 16px;
+}
+div#smalllinks > p > a {
+    width: 100px;
+    margin-left: calc((100% - 100px)/2);
+    text-align: center;
 }
 nav > div#smalllinks.hide {
     display: none;
@@ -123,11 +129,14 @@ a:link{
         min-height: 40px;
     }
     nav > span {
-        width: 100%;
+        width: 96%;
+        margin-left: 2%;
+        justify-content: space-between;
     }
     nav > span > img {
         height: 80px;
         height: 25px;
+        margin-top: 7px;
     }
     nav > span > button {
         display: block;
@@ -141,7 +150,7 @@ a:link{
     nav > div#smalllinks.show {
         display: block;
     }
-    nav > div#smalllinks > span {
+    nav > div#smalllinks > p {
         font-weight: 400;
         font-size: 16px;
     }
@@ -152,7 +161,7 @@ a:link{
         flex-direction: column;
         min-height: 30px;
     }
-    nav > div#smalllinks > span {
+    nav > div#smalllinks > p {
         font-size: 12.5px;
     }
     nav > div#smalllinks > button {
@@ -162,7 +171,7 @@ a:link{
         margin-left: calc((100% - 120px)/2);
     }
     nav > div#smalllinks{
-        height: 200px;
+        height: 250px;
         margin-top: 5px;
     }
 }

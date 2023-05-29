@@ -142,7 +142,7 @@ div.partner2 button {
     margin-top: 30px;
 }
 
-@media screen and (min-width : 800px){
+@media screen and (min-width : 830px){
     div.partner1 {
         width: 700px;
         margin-left: calc((100% - 700px)/2);
@@ -229,7 +229,7 @@ div.partner2 button {
     }
 }
 
-@media screen and (min-width : 1200px){
+@media screen and (min-width : 1440px){
     div.partner1 {
         width: 1150px;
         margin-left: calc((100% - 1150px)/2);

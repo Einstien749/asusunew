@@ -74,7 +74,7 @@ div#homesection1 > div > div:nth-child(1) > p:nth-child(6) > img {
     width: 30px;
     height: 30px;
 }
-@media screen and (min-width : 800px){
+@media screen and (min-width : 830px){
     div#homesection1 {
         height: 550px;
     }
@@ -82,7 +82,8 @@ div#homesection1 > div > div:nth-child(1) > p:nth-child(6) > img {
         display: grid;
         grid-template-columns: 400px 300px;
         grid-template-rows: 500px;
-        grid-column-gap: 5%;
+        grid-column-gap: 50px;
+        padding-left: calc((100% - 750px)/2);
     }
     div#homesection1 > div > div:nth-child(2) {
         display: block;
@@ -92,17 +93,17 @@ div#homesection1 > div > div:nth-child(1) > p:nth-child(6) > img {
         line-height: 44px;
         width: 290px;
         height: 150px;
-        margin-left: 64px;
+        margin-left: 0px;
     }
     
     div#homesection1 > div > div:nth-child(1) > p.account {
         font-size: 14px;
         line-height: 20px;
-        margin-left: 64px;
+        margin-left: 0px;
     }
     div#homesection1  > div > div:nth-child(1) > p:nth-child(3) {
         width: 220px;
-        margin-left: 64px;
+        margin-left: 0px;
     }
     div#homesection1 > div > div:nth-child(1) > p:nth-child(3) span {
         padding-top: 10px;
@@ -113,12 +114,12 @@ div#homesection1 > div > div:nth-child(1) > p:nth-child(6) > img {
     div#homesection1 > div > div:nth-child(1) > p:nth-child(4) {
         font-size: 10px;
         line-height: 15px;
-        margin-left: 64px;
+        margin-left: 0px;
     }
     div#homesection1 > div > div:nth-child(1) > p:nth-child(6) {
         width: 270px;
         height: 40px;
-        margin-left: 64px;
+        margin-left: 0px;
     }
     div#homesection1 > div > div:nth-child(1) > p:nth-child(6) > img {
         width: 33px;
@@ -147,6 +148,7 @@ div#homesection1 > div > div:nth-child(1) > p:nth-child(6) > img {
         grid-template-columns: 450px 350px;
         grid-template-rows: 550px;
         grid-column-gap: 50px;
+        padding-left: calc((100% - 850px)/2);
     }
     div#homesection1 > div > div:nth-child(1) > p.digital {
         font-size: 42px;
@@ -199,7 +201,7 @@ div#homesection1 > div > div:nth-child(1) > p:nth-child(6) > img {
     }
     
 }
-@media screen and (min-width : 1200px){
+@media screen and (min-width : 1440px){
     div#homesection1 {
         height: 750px;
     }
@@ -207,7 +209,8 @@ div#homesection1 > div > div:nth-child(1) > p:nth-child(6) > img {
         display: grid;
         grid-template-columns: 550px 450px;
         grid-template-rows: 700px;
-        grid-column-gap: 50px;
+        grid-column-gap: 100px;
+        padding-left: calc((100% - 1100px)/2);
     }
     div#homesection1 > div > div:nth-child(1) > p.digital {
         font-size: 64px;

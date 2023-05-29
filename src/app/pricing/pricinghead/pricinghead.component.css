@@ -114,6 +114,7 @@ select:hover {
         background-position: 170px 17.5px;
     }
 }
+
 @media screen and (max-width : 450px) {
     div#pricinghead {
         height: 400px;
@@ -156,5 +157,50 @@ select:hover {
         margin-left: calc((100% - 150px)/2);
         margin-top: 24px;
         background-position: 120px 14px;
+    }
+}
+
+@media screen and (min-width : 1440px) {
+    div#pricinghead {
+        height: 550px;
+    }
+    div#pricinghead > div > div {
+        width: 1200px;
+        height: 250px;
+        margin-left: calc((100% - 1200px)/2);
+    }
+    div#pricinghead > div > div > p:nth-child(1) {
+        width: 764px;
+        height: 100px;
+        font-size: 42px;
+        line-height: 51px;
+        margin-left: calc((100% - 764px)/2);
+    }
+    div#pricinghead > div > div > p:nth-child(2) {
+        width: 310px;
+        height: 50px;
+        font-size: 20px;
+        line-height: 25px;
+        margin-left: calc((100% - 310px)/2);
+    }
+    div#pricinghead > div > div > p:nth-child(3) {
+        width: 720px;
+        height: 25px;
+        font-size: 20px;
+        line-height: 25px;
+        margin-left: calc((100% - 720px)/2);
+    }
+    div#pricinghead > div > select {
+        width: 200px;
+        height: 50px;
+        border-radius: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        gap: 10px;
+        font-size: 20px;
+        line-height: 30px;
+        margin-left: calc((100% - 200px)/2);
+        margin-top: 50px;
+        background-position: 170px 17.5px;
     }
 }

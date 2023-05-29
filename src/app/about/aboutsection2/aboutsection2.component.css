@@ -1,5 +1,5 @@
 div#aboutsection2 {
-    height: 850px;
+    height: 800px;
     background-color: #CCE7F880;
     display: flex;
     flex-direction: column;
@@ -7,22 +7,18 @@ div#aboutsection2 {
 }
 div#aboutsection2 > div {
     width: 400px;
-    height: 400px;
+    height: 500px;
+    margin-left: calc((100% - 400px)/2);
+}
+div#aboutsection2 > div:nth-child(1) {
+    width: 400px;
+    height: 300px;
     margin-left: calc((100% - 400px)/2);
 }
 div#aboutsection2 > div > img {
     width: 300px;
     height: 300px;
     margin-left: calc((100% - 300px)/2);
-}
-div#aboutsection2 > div:nth-child(1) > p {
-    width: 220px;
-    height: 30px;
-    font-family: Poppins;
-    font-style: italic;
-    font-size: 12px;
-    line-height: 30px;
-    margin-left: calc((100% - 220px)/2);
 }
 div#aboutsection2 > div:nth-child(2) > * {
     width: 384px;
@@ -35,7 +31,7 @@ div#aboutsection2 > div:nth-child(2) > p:nth-child(1) {
     line-height: 30px;
 }
 div#aboutsection2 > div:nth-child(2) > p:nth-child(2) {
-    height: 270px;
+    height: 250px;
     font-family: Poppins;
     font-size: 10px;
     line-height: 30px;
@@ -54,7 +50,7 @@ div#aboutsection2 > div:nth-child(2) > p:nth-child(2) {
     }
     div#aboutsection2 > div > img {
         width: 360px;
-        height: 330px;
+        height: 400px;
         margin-left: calc((100% - 360px)/2);
         margin-top: 50px;
     }   
@@ -83,7 +79,7 @@ div#aboutsection2 > div:nth-child(2) > p:nth-child(2) {
     
 }
 
-@media screen and (min-width : 1350px){
+@media screen and (min-width : 1440px){
     div#aboutsection2 {
         height: 850px;
         width: 100%;
@@ -96,7 +92,7 @@ div#aboutsection2 > div:nth-child(2) > p:nth-child(2) {
     div#aboutsection2 > div > img {
         width: 500px;
         height: 600px;
-        margin-left: calc((100% - 500px)/2);
+        margin-left: 0px;
         margin-top: 50px;
     }   
     div#aboutsection2 > div:nth-child(2) {
@@ -130,11 +126,11 @@ div#aboutsection2 > div:nth-child(2) > p:nth-child(2) {
 }
 @media screen and (max-width : 410px){
     div#aboutsection2 {
-        min-height: 450px;
+        height: 750px;
     }
     div#aboutsection2 > div:nth-child(1) {
         width: 98%;
-        height: 400px;
+        height: 300px;
         margin-left: 1%;
     }
     div#aboutsection2 > div > img {
